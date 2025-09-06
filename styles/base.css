@@ -1,0 +1,134 @@
+header span {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+header {
+    background-color: midnightblue;
+    color: white;
+
+}
+
+
+
+nav {
+    background-color: #36454f;
+    font-size: 20px;
+    padding: 5px;
+
+
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+h2,
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    margin-top: 0.1px;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    padding: 25px 25px;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main p,
+h2 {
+    font-size: 25px;
+}
+
+
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 20px;
+    padding-left: 25px;
+
+
+
+}
+
+.about img {
+    max-width: 12%;
+    height: auto;
+}
+
+
+
+.from {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+
+}
+
+.from img {
+    width: auto;
+    height: auto;
+
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+
+.card {
+    border: solid black;
+
+}
+
+.card li {
+    font-size: 15px;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 400;
+}
