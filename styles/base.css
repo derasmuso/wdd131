@@ -26,6 +26,12 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: midnightblue;
 }
 
 nav ul {
@@ -34,6 +40,8 @@ nav ul {
     justify-content: space-around;
 
 }
+
+
 
 
 h2,
