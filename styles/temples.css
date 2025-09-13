@@ -1,0 +1,114 @@
+header {
+    background-color: midnightblue;
+    color: white;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 20px;
+    font-size: larger;
+
+
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+main,
+header,
+footer {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+header span {
+    display: block;
+    text-align: left;
+
+
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    margin-top: 0.1px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: large;
+
+
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav.show {
+    display: block;
+}
+
+nav {
+    display: none;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#menu {
+    background-color: white;
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.open::before {
+    content: "X";
+}
