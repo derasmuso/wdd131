@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+
+    .data,
+    .weather {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+
+    }
+
+    h2 {
+        background-color: white;
+        color: black;
+    }
+
+
+}

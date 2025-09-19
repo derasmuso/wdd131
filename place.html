@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description"
+        content="The purpose of this web page is to help me learn how to develop a reponsive webpage, demonstrate profiency in javascript, and demonstrate that I can be an effective team member">
+    <meta name="author" content="Daniel Rasmuson">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Finland</h1>
+    </header>
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="National animal" width="500" height="250">
+            </picture>
+
+        </div>
+        <section class="data">
+            <h2 class="data-heading">Data</h2>
+            <ul>
+                <li>
+                    <strong>Area: </strong>338,455 sq km
+                </li>
+                <li>
+                    <strong>Population: </strong>5,635,971
+                </li>
+                <li>
+                    <strong>Capital: </strong>Helsinki
+                </li>
+                <li>
+                    <strong>Languages: </strong>Finish, Swedish
+                </li>
+                <li>
+                    <strong>Currency: </strong>Euro
+                </li>
+                <li>
+                    <strong>Time Zone: </strong>UTC+2
+                </li>
+                <li>
+                    <strong>Calling Code:</strong>+358
+                </li>
+                <li>
+                    <strong>Internet TLD: </strong>.fi
+                </li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather
+                <img src="images/weather.svg" alt="weather">
+            </h2>
+            <ul>
+                <li>
+                    Temperature: 13 °C
+                </li>
+                <li>
+                    Conditions: Light Rain
+                </li>
+                <li>
+                    Wind: 19 km/hr
+                </li>
+                <li>
+                    Wind Chill:
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            ©<span id="currentyear"></span>
+            | Daniel Rasmuson | Utah
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
