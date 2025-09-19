@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -58,22 +64,18 @@
             </ul>
         </section>
         <section class="weather">
-            <h2>Weather
-                <img src="images/weather.svg" alt="weather">
-            </h2>
+            <h2>Weather <img src="images/weather.svg" alt="weather icon"></h2>
             <ul>
                 <li>
-                    Temperature: 13 °C
+                    <strong>Temperature: </strong>13 °C
                 </li>
                 <li>
-                    Conditions: Light Rain
+                    <strong>Conditions: </strong> Light Rain
                 </li>
                 <li>
-                    Wind: 19 km/hr
+                    <strong>Wind: </strong>19 km/hr
                 </li>
-                <li>
-                    Wind Chill:
-                </li>
+                <li id="windChill"><strong>Wind Chill: </strong></li>
             </ul>
 
         </section>

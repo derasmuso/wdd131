@@ -15,8 +15,10 @@
 }
 
 h2 img {
-    width: 30px;
+    width: 50px;
     height: auto;
+    vertical-align: middle;
+
 }
 
 .hero {
@@ -29,30 +31,49 @@ h2 img {
 .weather {
     position: absolute;
     background-color: var(--accent-color);
-    color: black;
-    padding: 30px;
+    opacity: 0.8;
+    padding: 25px;
+    text-align: center;
+
+
+
 
 }
 
 .data {
-    top: 10px;
-    left: 10px;
+    top: 150px;
+    left: 5%;
+    width: 15%;
+    height: auto;
+
+
+
 }
 
 .weather {
-    bottom: 10px;
-    right: 10px;
+    bottom: 2%;
+    right: 5%;
+    width: 15%;
+    height: auto;
+
 }
 
 ul {
     list-style-type: none;
     margin-top: 15px;
+    font-size: large;
 
 }
 
 h2 {
     background-color: var(--primary-color);
     color: var(--accent-color);
+    padding: 5px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 
@@ -61,4 +82,31 @@ footer {
     background-color: var(--primary-color);
     color: var(--accent-color);
     text-align: center;
+    font-size: larger;
+    padding: 25px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 600px) {
+
+    .data,
+    .weather {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+        width: 100%;
+        height: auto;
+
+    }
+
+    h2 {
+        background-color: white;
+        color: black;
+    }
+
+
+
 }

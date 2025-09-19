@@ -1,17 +1,10 @@
-@media (max-width: 600px) {
-
-    .data,
-    .weather {
-        position: static;
-        margin: 10px auto;
-        text-align: center;
-
+@media (min-width: 1000px) {
+    .weather h2 img {
+        display: none;
     }
 
-    h2 {
-        background-color: white;
-        color: black;
+    .weather h2::after {
+        content: " 🌦️";
+
     }
-
-
 }
