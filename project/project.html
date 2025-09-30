@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <meta name="description"
+        content="For my final project I am creating a food recipe site. The purpose is to help me demonstrate what I have learned using HTML, CSS, and JavaScript to create a responsive website. ">
+    <meta name="author" content="Daniel Rasmuson">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <h1>Flavors At Home</h1>
+        <p>Bringing cozy recipes to your kitchen</p>
+        <img src="images/logo.webp" alt="Logo">
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium/webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Hero Image" width="500" height="250">
+            </picture>
+        </div>
+        <section>
+            <h2>Discover Homemade Flavors</h2>
+            <p>Simple, savory, and made for home cooking</p>
+            <a href="#">Explore Recipes</a>
+        </section>
+        <section>
+            <h2>Latest Recipes</h2>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            ©<span id="currentyear"></span>
+            | Flavors at Home
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

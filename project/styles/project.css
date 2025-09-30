@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #E85C41;
+    --secondary-color1: #E1883F;
+    --secondary-color2: #5C3C38;
+    --accent-color1: #FDF6E3;
+    --accent-color2: #376061;
+
+}
+
+/* Header Content*/
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    top: 5px;
+    max-height: 125px;
+}
+
+nav {
+    background-color: var(--secondary-color1);
+    padding: 20px;
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+
+}
