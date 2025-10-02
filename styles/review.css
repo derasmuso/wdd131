@@ -2,3 +2,7 @@ header,
 footer {
     text-align: center;
 }
+
+main {
+    font-family: "Roboto", sans-serif;
+}
