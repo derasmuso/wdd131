@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+    <meta name="description"
+        content="The purpose of this assignment is to help me demonstrate profficeny creating forms in HTML, CSS, and JavaScript">
+    <meta name="author" content="Daniel Rasmuson">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+
+        <form method="get" action="review.html">
+
+            <label for="productName"><strong>Product Name*</strong></label>
+            <select name="product" id="productName" required>
+                <option value="" disabled selected>Select a Product</option>
+
+            </select>
+
+            <fieldset>
+                <legend><strong>Overall Rating*</strong></legend>
+                <div class="rating-group">
+                    <label for="onestar">&star;<input type="radio" name="rating" id="onestar" value="1"
+                            required></label>
+                    <label for="twostar">&star;&star;<input type="radio" name="rating" id="twostar" value="2"
+                            required></label>
+                    <label for="threestar">&star;&star;&star;<input type="radio" name="rating" id="threestar" value="3"
+                            required></label>
+                    <label for="fourstar">&star;&star;&star;&star;<input type="radio" name="rating" id="fourstar"
+                            value="4" required></label>
+                    <label for="fivestar">&star;&star;&star;&star;&star;<input type="radio" name="rating" id="fivestar"
+                            value="5" required></label>
+                </div>
+            </fieldset>
+
+            <label for="dateForm"><strong>Date of Installation*</strong></label>
+            <input type="date" id="dateForm" name="installationDate" required>
+
+            <fieldset>
+                <legend><strong>Which features did you find useful in the product? </strong>(Check all that apply)
+                </legend>
+                <label for="featureDurability"><input type="checkbox" id="featureDurability" name="durability"
+                        value="yes">Durability</label>
+                <label for="featureEase"><input type="checkbox" id="featureEase" name="ease" value="yes">Ease of
+                    Use</label>
+                <label for="featurePerformance"><input type="checkbox" id="featurePerformance" name="peformance"
+                        value="yes">Peformance</label>
+                <label for="feautureDesign"><input type="checkbox" id="feautureDesign" name="design"
+                        value="yes">Design</label>
+            </fieldset>
+
+            <label for="writtenReview"><strong>Written Review </strong>(Optional)</label>
+            <textarea name="review" id="writtenReview"></textarea>
+
+            <label for="userName"><strong>Your Name </strong>(Optional)</label>
+            <input type="text" id="userName" name="name">
+
+            <input type="submit" value="Post Review">
+
+        </form>
+
+
+
+
+
+    </main>
+
+    <footer>
+
+        <p>
+            ©<span id="currentyear"></span>
+            | Daniel Rasmuson | Utah
+        </p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>

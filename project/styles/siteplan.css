@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #C2442B;
+    --secondary-color1: #B76B2E;
+    --secondary-color2: #5C3C38;
+    --accent-color: #FDF6E3;
+
+
+}
+
+
+
+h1 {
+    color: var(--accent-color);
+    text-align: center;
+    padding: 25px;
+}
+
+h2 {
+    color: var(--secondary-color2);
+}
+
+main {
+    background-color: var(--accent-color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+header,
+footer {
+    background-color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+    color: var(--accent-color);
+    padding: 15px;
+
+}

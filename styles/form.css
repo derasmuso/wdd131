@@ -1,0 +1,145 @@
+header,
+footer {
+    background-color: #36013f;
+}
+
+h1,
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    background-color: #c9c3d1;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.rating-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+
+
+}
+
+.rating-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.rating-group input[type="radio"] {
+    margin-top: 5px;
+    transform: scale(1.5);
+}
+
+legend {
+    padding: 10px;
+}
+
+select {
+    padding: 5px;
+    width: 50%;
+}
+
+label[for="dateForm"],
+[for="writtenReview"],
+[for="userName"] {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    width: 50%;
+}
+
+label[for="dateForm"],
+[for="writtenReview"],
+[for="userName"],
+[for="productName"],
+legend {
+    font-size: large;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 15px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+textarea {
+    padding: 25px;
+    width: 45%;
+}
+
+input[type="text"] {
+    width: 50%;
+}
+
+/* Mobile screens: 600px wide or less */
+@media (max-width: 600px) {
+
+    form {
+        padding: 15px;
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    select,
+    input[type="date"],
+    input[type="text"],
+    textarea,
+    input[type="submit"] {
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    textarea {
+        padding: 20px;
+
+    }
+
+    .rating-group {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .rating-group label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+        min-width: 40px;
+
+    }
+
+    .rating-group input[type="radio"] {
+        margin-top: 4px;
+
+
+    }
+
+    input[type="submit"] {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    label {
+        margin-bottom: 8px;
+    }
+}
