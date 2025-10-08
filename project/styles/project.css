@@ -10,24 +10,26 @@
 /* Header Content*/
 
 header {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 20px 0;
+    position: relative;
     background-color: var(--accent-color1);
     color: var(--secondary-color2);
 }
 
 header img {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    top: 5px;
-    max-height: 125px;
+    max-height: 100px;
+    margin-bottom: 0.5rem;
 }
 
 header h1 {
     font-size: 3rem;
+    margin-bottom: 0.5px;
 }
+
+
 
 header p,
 nav a {
@@ -35,17 +37,19 @@ nav a {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
     background-color: var(--secondary-color1);
-    padding: 25px;
+    padding: 1rem 0;
+    position: relative;
 
 }
 
 nav a {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
+    display: block;
+    padding: 0.5rem 1rem;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -68,24 +72,34 @@ nav a,
 /* Footer Content*/
 footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: relative;
+    text-align: center;
+    padding: 10px;
     background-color: var(--secondary-color1);
     color: var(--accent-color1);
-    padding: 15px;
+
 }
 
 footer p {
     text-align: center;
+    margin-bottom: 5px;
+
 
 }
 
 .icons {
-    position: absolute;
-    right: 2rem;
+    position: static;
+
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+
+
+
+
+
 }
 
 .icons a {
@@ -104,6 +118,7 @@ footer p {
     height: auto;
     display: block;
     max-height: 800px;
+    object-fit: cover;
 
 }
 
@@ -160,14 +175,11 @@ footer p {
 .discover {
     background-color: var(--accent-color1);
     color: var(--secondary-color2);
-    position: absolute;
-    left: 35%;
-    top: 35%;
-    padding: 4rem;
+    position: relative;
     border-radius: 10px;
     text-align: center;
-
-
+    padding: 20px;
+    margin-top: 15px
 }
 
 .discover h2 {
@@ -252,12 +264,31 @@ label {
     background-color: var(--secondary-color2);
 }
 
-@media (max-width: 500px) {
-    .newsletter form {
-        padding: 1.5rem;
+@media (min-width: 500px) {
+    .newsletter h2 {
+        font-size: 2rem;
     }
 
-    .newsletter h2 {
-        font-size: 1.75rem;
+    .newsletter p {
+        font-size: 1.1rem;
     }
+
+    .newsletter form {
+        padding: 2rem;
+    }
+
+    .newsletter input[type="submit"] {
+        font-size: 1.1rem;
+        width: 60%;
+    }
+}
+
+#menu {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
