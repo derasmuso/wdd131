@@ -292,3 +292,11 @@ label {
     border: none;
     cursor: pointer;
 }
+
+.hidden {
+    display: none;
+}
+
+#mainNav:not(.hidden) {
+    display: flex;
+}
