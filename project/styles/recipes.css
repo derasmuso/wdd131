@@ -25,7 +25,7 @@
     display: flex;
 }
 
-/* Header Content */
+/* Header */
 
 header {
     display: flex;
@@ -80,7 +80,8 @@ nav a:hover {
 
 }
 
-/* Footer Content */
+/* Footer */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -108,29 +109,8 @@ footer p {
     gap: 25px;
     margin-top: 10px;
 
-
-
-
-
 }
 
 .icons a {
     text-decoration: none;
-}
-
-
-
-/* main content */
-
-h1,
-p {
-    text-align: center;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-p {
-    font-size: 25px;
 }

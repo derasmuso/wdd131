@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    header img {
+        position: absolute;
+        left: 3rem;
+        top: 2%;
+        max-height: 200px;
+        margin: 0;
+    }
+
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .icons {
+        position: absolute;
+        right: 2rem;
+        display: flex;
+        gap: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding: 15px;
+        gap: 10px;
+        margin-top: 700px;
+    }
+}
