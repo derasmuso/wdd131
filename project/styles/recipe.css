@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #8C1F17;
+    --secondary-color1: #70371A;
+    --secondary-color2: #231815;
+    --accent-color1: #F3E6D9;
+    --accent-color2: #153233;
+
+}
+
+/* Header Content*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: var(--accent-color1);
+    color: var(--secondary-color2);
+}
+
+header img {
+    max-height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5px;
+}
+
+
+
+header p,
+nav a {
+    font-size: 25px;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    background-color: var(--secondary-color1);
+    padding: 1rem 0;
+    position: relative;
+
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    background-color: var(--secondary-color2);
+
+}
+
+nav a,
+.discover a {
+
+    color: var(--accent-color1);
+    text-decoration: none;
+}

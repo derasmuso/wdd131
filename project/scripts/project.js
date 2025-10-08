@@ -2,19 +2,19 @@ const recipes = [
     {
         recipeName: "Sausage and Potatoes",
         imagePath: "images/sausage-potatoes.webp",
-        link: "recipes/sausage-potatoes.html"
+        link: "sausage-potatoes.html"
     },
 
     {
         recipeName: "Fried Rice",
         imagePath: "images/fried-rice.webp",
-        link: "recipes/fried-rice.html"
+        link: "fried-rice.html"
     },
 
     {
         recipeName: "Hot Dogs",
         imagePath: "images/hot-dogs.webp",
-        link: "recipes/hot-dogs.html"
+        link: "hot-dogs.html"
     }
 ];
 

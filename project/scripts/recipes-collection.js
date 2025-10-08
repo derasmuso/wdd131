@@ -2,55 +2,55 @@ const recipes = [
     {
         recipeName: "Sausage and Potatoes",
         imagePath: "images/sausage-potatoes.webp",
-        link: "recipes/sausage-potatoes.html"
+        link: "sausage-potatoes.html"
     },
 
     {
         recipeName: "Fried Rice",
         imagePath: "images/fried-rice.webp",
-        link: "recipes/fried-rice.html"
+        link: "fried-rice.html"
     },
 
     {
         recipeName: "Hot Dogs",
         imagePath: "images/hot-dogs.webp",
-        link: "recipes/hot-dogs.html"
+        link: "hot-dogs.html"
     },
 
     {
         recipeName: "BLT",
         imagePath: "images/blt.jpg",
-        link: "recipes/blt.html"
+        link: "blt.html"
     },
 
     {
         recipeName: "Chicken Breast",
         imagePath: "images/chicken-breast.webp",
-        link: "recipes/chicken.html"
+        link: "chicken.html"
     },
 
     {
         recipeName: "Meat Load",
         imagePath: "images/meat-loaf.jpg",
-        link: "recipes/meatloaf.html"
+        link: "meatloaf.html"
     },
 
     {
         recipeName: "Sloppy Joes",
         imagePath: "images/sloppy-joes.jpg",
-        link: "recipes/sloppy-joes.html"
+        link: "sloppy-joes.html"
     },
 
     {
         recipeName: "Spaghetti",
         imagePath: "images/spaghetti.jpg",
-        link: "recipes/spaghetti.html"
+        link: "spaghetti.html"
     },
 
     {
         recipeName: "Tacos",
         imagePath: "images/tacos.jpg",
-        link: "recipes/tacos.html"
+        link: "tacos.html"
     }
 
 
