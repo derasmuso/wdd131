@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    header img {
+        position: absolute;
+        left: 3rem;
+        top: 2%;
+        max-height: 200px;
+        margin: 0;
+    }
+
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    #menu {
+        display: none;
+    }
+}
