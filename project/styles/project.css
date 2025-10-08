@@ -90,16 +90,10 @@ footer p {
 
 .icons {
     position: static;
-
     display: flex;
     justify-content: center;
     gap: 25px;
     margin-top: 10px;
-
-
-
-
-
 }
 
 .icons a {

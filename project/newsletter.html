@@ -5,16 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter Thank You Page</title>
+    <meta name="description"
+        content="When users complete the form on the project home page, they get redirected to this page which thanks them for completing the form.">
+    <meta name="author" content="Daniel Rasmuson">
     <link rel="stylesheet" href="styles/newsletter.css">
+    <link rel="stylesheet" href="styles/newsletter-large.css">
     <script src="scripts/project-get-dates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
 </head>
 
 <body>
     <header>
+        <button id="menu">&#9776;</button>
+
         <h1>Flavors At Home</h1>
         <p>Bringing cozy recipes to your kitchen</p>
         <img src="images/logo.webp" alt="Logo">
-        <nav>
+
+        <nav id="mainNav">
 
             <a href="index.html">Home</a>
             <a href="recipes.html">Recipes</a>
