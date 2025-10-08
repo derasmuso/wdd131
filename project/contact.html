@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description"
+        content="The contact page where the user will learn information about the owners of the site, and how to submit comments to the user.">
+    <meta name="author" content="Daniel Rasmuson">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contact-large.css">
+    <script src="scripts/project-get-dates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <button id="menu">&#9776;</button>
+
+        <h1>Flavors At Home</h1>
+        <p>Bringing cozy recipes to your kitchen</p>
+        <img src="images/logo.webp" alt="Logo">
+
+        <nav id="mainNav">
+
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="#">Contact</a>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="founder">
+            <h2>Meet the Founder</h2>
+
+            <div class="content">
+                <img src="images/employee.jpg" alt="employee">
+                <p>Hi there! My name is John. I've always loved experimenting in the kitchen and discovering new
+                    ways to make cooking fun, simple, and delicious. Whether you're a beginner or an exprienced cook, I
+                    hope
+                    you find something here that sparks your creativty for cooking!</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Have a quesiton, suggestion, or just want to say hello? I'd love to hear from you! Fill out the form
+                below and I'll get back to you as soon as possible. </p>
+
+            <form method="get" action="feedback.html">
+                <label for="userFirst">First Name*</label>
+                <input type="text" name="first" id="userFirst" required>
+
+                <label for="userLast">Last Name*</label>
+                <input type="text" name="last" id="userLast" required>
+
+                <label for="userEmail">Email*</label>
+                <input type="email" id="userEmail" name="email" required>
+
+                <label for="subjectName">Message Subject*</label>
+                <select name="subject" id="subjectName" required>
+                    <option value="" disabled selected>Select a Subject</option>
+
+                </select>
+
+                <label for="writtenMessage">Message*</label>
+                <textarea name="message" id="writtenMessage" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            ©<span id="currentyear"></span>
+            | Flavors at Home |
+        </p>
+        <p id="lastModified"></p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+
+            <a href="https://instagram.com/">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+
+            <a href="https://x.com/">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
