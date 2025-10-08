@@ -90,7 +90,8 @@ footer {
     padding: 10px;
     background-color: var(--secondary-color1);
     color: var(--accent-color1);
-    margin-top: 600px;
+    margin-top: 25px;
+
 
 }
 
@@ -113,4 +114,47 @@ footer p {
 
 .icons a {
     text-decoration: none;
+}
+
+/* Main Content */
+
+.recipe-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.recipe-card section {
+    text-align: center;
+    background-color: var(--accent-color1);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.collection h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--secondary-color2);
+}
+
+.collection p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--secondary-color2);
+}
+
+.recipe-card .recipe-link {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    color: var(--secondary-color2);
+
+}
+
+.recipe-link:hover {
+    background-color: var(--primary-color);
 }
