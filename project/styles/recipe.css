@@ -7,7 +7,25 @@
 
 }
 
-/* Header Content*/
+#menu {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#mainNav:not(.hidden) {
+    display: flex;
+}
+
+/* Header Content */
 
 header {
     display: flex;
@@ -52,6 +70,8 @@ nav a {
     padding: 0.5rem 1rem;
     border-radius: 10px;
     font-weight: bold;
+    text-decoration: none;
+    color: var(--accent-color1);
 }
 
 
@@ -60,14 +80,7 @@ nav a:hover {
 
 }
 
-nav a,
-.discover a {
-
-    color: var(--accent-color1);
-    text-decoration: none;
-}
-
-/* Footer Content*/
+/* Footer Content */
 footer {
     display: flex;
     flex-direction: column;
@@ -76,6 +89,7 @@ footer {
     padding: 10px;
     background-color: var(--secondary-color1);
     color: var(--accent-color1);
+
 
 }
 
@@ -88,6 +102,7 @@ footer p {
 
 .icons {
     position: static;
+
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -96,4 +111,58 @@ footer p {
 
 .icons a {
     text-decoration: none;
+}
+
+/* Main Content */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main h2,
+main h3 {
+    text-align: center;
+    color: var(--secondary-color2);
+}
+
+main h2 {
+    font-size: 3rem;
+}
+
+main h3 {
+    font-size: 2rem;
+}
+
+main p {
+    text-align: center;
+    color: var(--secondary-color2);
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+main img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+main ul,
+main ol {
+    line-height: 1.5;
+    color: var(--secondary-color2);
+}
+
+main li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+main ul {
+    text-align: center;
+    list-style-type: none;
+
 }

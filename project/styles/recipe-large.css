@@ -25,9 +25,34 @@
         justify-content: center;
         width: 100%;
 
+
+
     }
 
     #menu {
         display: none;
     }
+
+    .icons {
+        position: absolute;
+        right: 2rem;
+        display: flex;
+        gap: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding: 15px;
+        gap: 10px;
+
+    }
+
+    main p,
+    main li {
+        font-size: 25px;
+    }
+
 }
