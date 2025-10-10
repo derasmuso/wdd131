@@ -1,14 +1,20 @@
 // A function that shows the date a recipe was added
 
-function getCurrentDate() {
-    const today = new Date();
-    return today.toLocaleDateString();
+function displayRecipeDate() {
+    const dateElement = document.getElementById("dateadded");
+    if (!dateElement) return;
+
+    const storedDate = dateElement.dataset.date;
+    const formattedDate = new Date(storedDate).toLocaleDateString("en-us", {
+        year: "numeric",
+        month: "numeric",
+        day: "numeric"
+    });
+
+    dateElement.textContent = `Date added: ${formattedDate}`;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const date = document.getElementById("dateadded");
-    if (date) {
-        date.textContent = `Date added: ${getCurrentDate()}`;
-    }
-});
+document.addEventListener("DOMContentLoaded", displayRecipeDate);
+
+
 
