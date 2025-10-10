@@ -24,13 +24,13 @@ const recipes = [
     },
 
     {
-        recipeName: "Chicken Breast",
+        recipeName: "Garlic Herb Chicken",
         imagePath: "images/chicken-breast.webp",
         link: "chicken.html"
     },
 
     {
-        recipeName: "Meat Load",
+        recipeName: "Meatloaf",
         imagePath: "images/meat-loaf.jpg",
         link: "meatloaf.html"
     },
@@ -48,7 +48,7 @@ const recipes = [
     },
 
     {
-        recipeName: "Tacos",
+        recipeName: "Ground Beef Tacos",
         imagePath: "images/tacos.jpg",
         link: "tacos.html"
     }
