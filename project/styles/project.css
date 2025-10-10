@@ -104,6 +104,9 @@ footer p {
     text-decoration: none;
 }
 
+footer a {
+    color: var(--accent-color1);
+}
 
 
 

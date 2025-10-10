@@ -112,14 +112,14 @@ footer p {
     gap: 25px;
     margin-top: 10px;
 
-
-
-
-
 }
 
 .icons a {
     text-decoration: none;
+}
+
+footer a {
+    color: var(--accent-color1);
 }
 
 
